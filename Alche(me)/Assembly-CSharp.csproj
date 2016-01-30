@@ -50,6 +50,9 @@
      <Compile Include="Assets\MessageBox\Plugin\Scripts\MessageBoxEnums.cs" />
      <Compile Include="Assets\MessageBox\Plugin\Scripts\MessageItem.cs" />
      <Compile Include="Assets\Scripts\Abyss.cs" />
+     <Compile Include="Assets\Scripts\AltarReceiver.cs" />
+     <Compile Include="Assets\Scripts\ArtifactPickup.cs" />
+     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />

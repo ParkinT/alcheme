@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Abyss : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class Abyss : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.transform.position = startPoint.position;
+            var currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentBuildIndex);
         }
     }
 }

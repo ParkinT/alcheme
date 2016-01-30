@@ -20,8 +20,8 @@ Once the ritual is complete (the artifact has been reconstructed) there is a red
 
 Participants:
 
-Daniel Davis
-Matt Parkin
-Thom Parkin
-John Diasparra
+  - Daniel Davis
+  - Matt Parkin
+  - Thom Parkin
+  - John Diasparra
 

@@ -15,7 +15,6 @@ public class PlayerInventory : MonoBehaviour {
 		}
 		// add health too
 
-Debug.Log(carrying_artifact);
 	}
 
 	// Update is called once per frame

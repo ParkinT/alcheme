@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour {
 
 	public int MaxHealth = 100;
+	public float DiseaseInterval = 1;  //number of points per second you lose
+	public bool InDarkness = false;  // while in darkness health is being depleted
 	private int currentHealth;
+	private float _deltaTimeTotal = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +18,21 @@ public class PlayerHealth : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		currentHealth = System.Convert.ToInt32(MaxHealth - Time.timeSinceLevelLoad);
+		if (Application.loadedLevelName == "Main")
+			currentHealth = MaxHealth;
 
+			//the code below works but this code (above) is simpler
+		/*
+		if (!InDarkness)
+			return;  // quick check and jump out - to improve performance
+
+		if (_deltaTimeTotal >= 1.0f) {  // a second (at least) has passed
+			_deltaTimeTotal = 0;  // reset for next calculation
+			Reduce(1);
+		}
+		_deltaTimeTotal += Time.deltaTime;
+		*/
 	}
 
 	void Awake() {
@@ -27,10 +44,16 @@ public class PlayerHealth : MonoBehaviour {
 
 	public int Reduce(int amt) {
 		currentHealth -= Mathf.Abs(amt);
+		return currentHealth;
 	}
 
 	public int Revive() {
 		currentHealth = MaxHealth;
+		return currentHealth;
+	}
+
+	public bool IsAlive() {
+		return (currentHealth > 1);
 	}
 
 	public void Died() {

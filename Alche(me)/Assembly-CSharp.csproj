@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Abyss.cs" />
      <Compile Include="Assets\Scripts\AltarReceiver.cs" />
      <Compile Include="Assets\Scripts\ArtifactPickup.cs" />
+     <Compile Include="Assets\Scripts\ArtifactRise.cs" />
      <Compile Include="Assets\Scripts\FallDamage.cs" />
      <Compile Include="Assets\Scripts\LevelTeleport.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />

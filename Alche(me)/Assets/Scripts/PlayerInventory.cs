@@ -15,8 +15,7 @@ public class PlayerInventory : MonoBehaviour {
 		}
 		// add health too
 
-
-		Debug.Log("ARTIFACT CARRIED OVER: " + carrying_artifact);
+Debug.Log(carrying_artifact);
 	}
 
 	// Update is called once per frame
@@ -50,5 +49,10 @@ public class PlayerInventory : MonoBehaviour {
 		if (Artifacts.Contains(name.ToLower())) {
 			Artifacts.Remove(name.ToLower());
 		}
+	}
+
+	public void DropAll() {
+		Artifacts.Clear();
+		PlayerPrefs.SetString("artifact", string.Empty);
 	}
 }

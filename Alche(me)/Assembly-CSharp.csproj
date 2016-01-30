@@ -52,6 +52,9 @@
      <Compile Include="Assets\Scripts\Abyss.cs" />
      <Compile Include="Assets\Scripts\AltarReceiver.cs" />
      <Compile Include="Assets\Scripts\ArtifactPickup.cs" />
+     <Compile Include="Assets\Scripts\FallDamage.cs" />
+     <Compile Include="Assets\Scripts\LevelTeleport.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />

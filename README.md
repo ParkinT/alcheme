@@ -24,4 +24,5 @@ Participants:
   - Matt Parkin
   - Thom Parkin
   - John Diasparra
+  - Fred Gohsman
 

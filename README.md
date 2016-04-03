@@ -29,7 +29,7 @@ Once the ritual is complete (the artifact has been reconstructed) there is a red
 
 ![The Subconscious as depicted in Alcheme](project_screenshot.jpg)
 
-The game is, essence, a platform-puzzle game but in the first-person perspective.  The music and sound effects are as ethereal as the visuals lending to an experience almost __transcendental__.
+The game is, in essence, a platform-puzzle; game but in the first-person perspective.  The music and sound effects are as ethereal as the visuals lending to an experience almost __transcendental__.
 ---
 
 Participants:
